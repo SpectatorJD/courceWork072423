@@ -10,13 +10,12 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
 import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 
 import static org.mockito.Mockito.*;
 
 public class ExaminerServiceImpTest {
-    private com.example.courceWork072423.serice.ExaminerService examinerService;
+    private ExaminerServiceImp examinerService;
     private QuestionService questionService;
 
     @BeforeEach
