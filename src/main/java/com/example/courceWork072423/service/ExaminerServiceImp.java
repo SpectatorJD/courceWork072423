@@ -2,12 +2,13 @@ package com.example.courceWork072423.service;
 
 import com.example.courceWork072423.exception.NotQuestionException;
 import com.example.courceWork072423.model.Question;
+import org.springframework.stereotype.Service;
 
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
-
-public class ExaminerServiceImp implements com.example.courceWork072423.serice.ExaminerService {
+@Service
+public class ExaminerServiceImp implements com.example.courceWork072423.service.ExaminerService {
 
     public ExaminerServiceImp(QuestionService questionService) {
         this.questionService = questionService;
